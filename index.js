@@ -11,19 +11,19 @@ const TAU = 2 * PI; //5
 
 //Booleanos
 //5
-let booleanoAnd = booleano1 && booleano2; //5
+let booleanoAnd = booleano1 && booleano2;
 //6
-let booleanoNot = !booleano1; //6
+let booleanoNot = !booleano1;
 //7
-let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2)); //7
+let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
 
 //Operadores
 //8
 let incrementarDesp = 2;
-let resultadoDesp = incrementarDesp++; //8
+let resultadoDesp = incrementarDesp++;
 //9
 let incrementarAntes = 2;
-let resultadoAntes = ++incrementarAntes; //9
+let resultadoAntes = ++incrementarAntes;
 //10
 let contarHasta10_2 = 0;
 while (contarHasta10_2 !== 10) {
